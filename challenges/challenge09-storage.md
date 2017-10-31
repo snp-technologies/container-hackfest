@@ -19,7 +19,7 @@ In this lab you will use Kubernetes Persistent Storage constructs to mount a per
         * ``/opt/mssql-tools/bin/sqlcmd -S <IP_OF_SERVICE>,1433 -U SA -P '<YourPassword>'``
     * At the sqlcmd prompt create a new database
         * ``CREATE DATABASE TestDB``
-    * Verify the table was created
+    * Verify the database was created
         * ``SELECT Name from sys.Databases``
     * Execute the above commands
         * ``GO``

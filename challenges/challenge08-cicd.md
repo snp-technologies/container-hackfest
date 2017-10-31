@@ -10,7 +10,7 @@ In this challenge, you will create a workflow for continuous integration and con
 
 1. Fork this repo into your Github account. https://github.com/chzbrgr71/microsmack 
 2. Clone your forked copy to your local machine.
-3. Replace the contents of jenkins-values.yaml with the details from the file in the [helper folder.](SolutionHelperFiles/ch8/jenkins-values.yaml)
+3. Replace the contents of jenkins-values.yaml with the details from the file in the [helper folder.](SolutionHelperFiles/ch08/jenkins-values.yaml)
 4. In your terminal window, change to the directory where you have cloned the repo.
 
 ### Jenkins Setup (via Helm)
@@ -85,4 +85,4 @@ echo http://$SERVICE_IP:8080/login
 1. Build in steps to handle PR's and dev branches
 2. Add a step to security scan images
 3. Blue/green Deployment. https://www.ianlewis.org/en/bluegreen-deployments-kubernetes 
-3. Spinnaker
+4. Spinnaker
